@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#entire-page {
+    background: rgba(8, 83, 33, 0.781);
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand-name {
+    color: rgb(32, 21, 21);
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.app-name {
+    color:rgb(32, 21, 21);
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 0 0 2rem 0;
+}
+
+#phone-container {
+    background-color: rgb(32, 21, 21);
+    height: 31rem;
+    border-radius: 1rem;
+}
+
+.nouch {
+    background: rgb(214, 210, 210);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin: 1rem auto;
+}
+
+.input-result-container {
+    background: rgb(214, 210, 210);
+    margin: 0 1rem;
+    height: 24rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 2rem;
+    color: rgb(32, 21, 21);
+    margin: 0 0 1rem 0;
+}
+
+#user-input {
+    width: 16rem;
+    height: 3rem;
+    text-align: center;
+}
+
+#results-div {
+    margin: 2rem;
+    color: rgb(32, 21, 21);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.buttons {
+    margin:1rem 1rem 5rem 1rem;
+    color: rgb(32, 21, 21)
+}
+
+#check-btn, #clear-btn {
+    width: 10rem;
+    height: 2rem;
+}
+
