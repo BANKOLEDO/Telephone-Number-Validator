@@ -1,5 +1,7 @@
 # Telephone Validator App
 
+[Page Preview](https://bankoledo.github.io/Telephone-Number-Validator/)
+
 ## Overview
 
 The **Telephone Validator App** is a simple web application that allows users to check the validity of a US phone number. The application takes a phone number as input and determines if it matches the standard US phone number format.
